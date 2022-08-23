@@ -1,0 +1,63 @@
+nav{ 
+    background-color: rgb(238, 138, 6);
+    height: fit-content;
+    width: auto;
+    color:white
+}
+
+nav ul{
+    float: right;
+    margin-right: 5%;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 88px;
+    margin-left: 18px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.brand img{
+width: 300px;
+height: 100px;
+}
+
+
+.contenedor{
+    background: #EED0C9;
+  
+    display: flex;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 100px); 
+  }
+  .caja_1{
+    width: 350px;
+    height: 450px;
+    background-color: #76FF54;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .caja_2{
+    width: 350px;
+    height: 450px;
+    background-color: #E97C2B;
+    text-align: center;
+margin-right: 5%;
+}
+
+.ImgCaja1 {
+    position:relative; 
+    left: 80px; 
+    top:2px;
+}
+.ImgCaja2 {
+    position:relative; 
+    right: 80px; 
+    top:2px;
+}
